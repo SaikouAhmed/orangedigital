@@ -1,0 +1,131 @@
+body {
+    padding: 0;
+    margin: 0;
+    border: border-box;
+}
+
+/* Barre de navigation */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    height: 63px;
+    border-bottom: 1px solid rgb(202, 202, 202);
+}
+
+/* Barre de navigation | Prémière partie de la barre*/
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 500px;
+    overflow: hidden;
+    text-align: start;
+}
+
+.logo_Open {
+    width: 150px;
+    height: 30px;
+}
+
+
+a {
+    text-decoration: none;
+    color:rgb(90, 80, 80);
+}
+
+nav a:hover {
+    color: rgb(103, 103, 253);
+}
+
+/* Barre de navigation | Seconde partie de la barre*/
+
+
+/* Prémière section*/
+
+.firstSection {
+    padding-top: 80px;
+    display: flex;
+    align-items: center;
+    background: rgb(255,250,238);
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.firstSectionleft h1 {
+    margin: 0px 0px 1rem;
+    font-family: Inter, Inter-Bold;
+    font-size: 3rem;
+    line-height: 45px;
+    font-weight: 700;
+    color: rgb(39, 26, 56);
+}
+
+.firstSectionleft p {
+    margin: 0px 0px 1rem;
+    font-family: Inter, Inter-Medium;
+    font-size: 1.5rem;
+    letter-spacing: 0px;
+    line-height: 26px;
+    font-weight: 500;
+}
+
+.home_banner {
+    width: 568px;
+}
+
+
+/*Button style*/
+.button1 {
+    padding: 10px;
+    margin-left: 10px;
+    background: white;
+    border: 1px solid rgb(116, 81, 235);
+    border-radius: 5px;
+    color: rgb(116, 81, 235);
+    font-weight: bold;
+}
+
+.button1:hover {
+    background: rgb(164, 164, 211);
+}
+.button2 {
+    padding: 10px;
+    margin-left: 10px;
+    background: rgb(116, 81, 235);
+    border: 1px solid rgb(116, 81, 235);
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+}
+
+
+/* Second Section */
+
+.secondSection {
+    padding-top: 80px;
+    text-align: start;
+    display: flex;
+    align-items: center;
+    background: white;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.secondSectionleft h1 {
+    margin: 0px 0px 1rem;
+    font-family: Inter, Inter-Bold;
+    font-size: 2rem;
+    line-height: 30px;
+    font-weight: 700;
+    color: rgb(39, 26, 56);  
+}
+
+.secondSectionleft p {
+    margin-right: 10px;
+}
+
